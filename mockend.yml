@@ -2,15 +2,14 @@ models:
   User:
     fake:
       _count: 10
-      data:
-        [{"team_1_name": { loremWords: [1, 10] },
-        "team_2_name": "Atlético Madrid",
-        "team_1_odd": "2.51",
-        "draw_odd": "3.36",
-        "team_2_odd": "3.26",
-        "team_1_logo": "https://cdn.oddspedia.com/images/teams/medium/1/3463.png",
-        "team_2_logo": "https://cdn.oddspedia.com/images/teams/medium/1/2.png",
-        "zone": "ESPANHA",
-        "league": "COPA DEL REY - SEMIFINAL",
-        "datetime": "2024-02-29 17:30"
-    }],
+      name: firstName
+      lastName: lastName
+      digits: 2.51
+      digits: 3.36
+      digits: 3.86
+      imageURL: https://cdn.oddspedia.com/images/teams/medium/1/3463.png
+      imageURL: https://cdn.oddspedia.com/images/teams/medium/1/2.png
+      country: ESPANHA
+      company: COPA DEL REY - SEMIFINAL
+      dateTime: [2010-01-01T00:00:00Z, 2024-12-31T00:00:00Z]
+
