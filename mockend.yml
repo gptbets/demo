@@ -11,5 +11,5 @@ models:
       team_2_logo: { imageURL: [32, 32] }
       zone: country
       league: company
-      datetime: hour
+      datetime: { hour [01:00, 24:00] }
 
