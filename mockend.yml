@@ -11,4 +11,4 @@ models:
       team_2_logo: { imageURL: [32, 32] }
       zone: country
       league: company
-      datetime: { int: [01, 24] }
+      datetime: { float: [01, 24] }
