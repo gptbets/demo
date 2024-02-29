@@ -1,7 +1,7 @@
 models:
   User:
     fake:
-      _count: 500
+      _count: 100
       team_1_name: firstName
       team_2_name: lastName
       team_1_odd: { int: [1, 10] }
