@@ -12,3 +12,4 @@ models:
       zone: country
       league: company
       datetime: { int: [10, 22] }
+      data_game: { dateTime: [2024-02-29T00:00:00Z, 2024-03-06T23:59:59Z] }
