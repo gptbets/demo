@@ -4,7 +4,7 @@ models:
       _count: 10
       team_1_name: firstName
       team_2_name: lastName
-      team_1_odd: int: { int: [1, 10] }
+      team_1_odd: { int: [1, 10] }
       draw_odd: { int: [1, 10] }
       team_2_odd: { int: [1, 10] }
       team_1_logo: { imageURL: [32, 32] }
