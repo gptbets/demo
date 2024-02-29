@@ -1,19 +1,16 @@
 models:
-  Post:
-    hasMany: [Comment]
+  User:
     fake:
       _count: 10
-      cover: { imageURL: [1920, 1080] }
-      title: { loremWords: [5, 20] }
-      body: { loremParagraphs: [10, 100] }
-      category: { oneOfString: [one, two, three] }
-      isDraft: { bool: 20 }
-      views: { int: [0, 1000] }
-      createdAt: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
-  Comment:
-    belongsTo: [Post]
-    fake:
-      _count: 25
-      email: email
-      body: { loremParagraphs: [10, 100] }
-      createdAt: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
+      data:
+        [{"team_1_name": { loremWords: [1, 10] },
+        "team_2_name": "Atlético Madrid",
+        "team_1_odd": "2.51",
+        "draw_odd": "3.36",
+        "team_2_odd": "3.26",
+        "team_1_logo": "https://cdn.oddspedia.com/images/teams/medium/1/3463.png",
+        "team_2_logo": "https://cdn.oddspedia.com/images/teams/medium/1/2.png",
+        "zone": "ESPANHA",
+        "league": "COPA DEL REY - SEMIFINAL",
+        "datetime": "2024-02-29 17:30"
+    }],
