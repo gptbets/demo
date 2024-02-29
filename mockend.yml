@@ -4,11 +4,11 @@ models:
       _count: 10
       name: firstName
       lastName: lastName
-      digits: 2.51
-      digits: 3.36
-      digits: 3.86
-      imageURL: https://cdn.oddspedia.com/images/teams/medium/1/3463.png
-      imageURL: https://cdn.oddspedia.com/images/teams/medium/1/2.png
+      int: [1, 10]
+      int: [1, 10]
+      int: [1, 10]
+      imageURL: [32, 32]
+      imageURL: [32, 32]
       country: ESPANHA
       company: COPA DEL REY - SEMIFINAL
       dateTime: [2010-01-01T00:00:00Z, 2024-12-31T00:00:00Z]
